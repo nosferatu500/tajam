@@ -39,6 +39,8 @@
 
 <style lang="sass" scoped>
 
+@import "../../src/libs/fonts"
+
 .s_team
     background-image: url(../../src/assets/img/team/bg.png)
     background-size: cover
@@ -48,12 +50,14 @@
         padding-bottom: 70px
         text-align: center
         h1
+            font-family: Playfair_Display_Bold
             padding: 0
             margin: 0
             text-transform: uppercase
             color: #fff
             font-size: 22px
         p
+            font-family: Playfair_Display_Regular            
             padding: 0
             margin: 0
             color: #fff
@@ -62,6 +66,7 @@
         text-align: center
         padding-bottom: 100px
         h1
+            font-family: Roboto_Black
             padding: 0
             margin: 0
             color: #fff
@@ -70,6 +75,7 @@
             padding-top: 20px
             padding-bottom: 10px
         p
+            font-family: Roboto_Light            
             padding: 0
             margin: 0
             font-size: 13px
@@ -79,12 +85,14 @@
         text-align: center
         padding-bottom: 65px
         p
+            font-family: Roboto_Light 
             padding: 0
             margin: 0
             font-size: 14px
             color: #fff
             padding-bottom: 30px
         button
+            font-family: Hammersmith_One
             border: 2px solid #3b7fa4
             background-color: transparent
             text-transform: uppercase

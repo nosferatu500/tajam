@@ -50,6 +50,7 @@
 .s_top
     text-align: center
     h1
+        font-family: Playfair_Display_Bold
         padding: 0
         margin: 0
         font-size: 22px
@@ -57,6 +58,7 @@
         padding-top: 70px
         padding-bottom: 20px
     p
+        font-family: Playfair_Display_Regular        
         padding: 0
         margin: 0
         font-size: 14px
@@ -71,12 +73,14 @@
         padding-bottom: 30px
 
     h1
+        font-family: Roboto_Black
         padding: 0
         margin: 0
         text-transform: uppercase
         font-size: 14px
         padding-bottom: 20px
     p
+        font-family: Roboto_Light
         padding: 0
         margin: 0
         font-size: 14px

@@ -33,6 +33,7 @@
     float: left
     padding-bottom: 70px
     h1
+        font-family: Playfair_Display_Bold
         padding: 0
         margin: 0
         padding-top: 70px        
@@ -40,11 +41,13 @@
         padding-bottom: 30px
         text-transform: uppercase
     p
+        font-family: Roboto_Light
         padding: 0
         margin: 0
         font-size: 14px
         padding-bottom: 30px
     button
+        font-family: Hammersmith_One
         border: 2px solid #3b7fa4
         background-color: transparent
         text-transform: uppercase
@@ -61,6 +64,7 @@
         padding-top: 200px
         padding-bottom: 30px
     h1
+        font-family: Roboto_Black
         color: #fff
         font-size: 16px
         text-transform: uppercase

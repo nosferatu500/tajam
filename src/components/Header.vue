@@ -41,6 +41,7 @@ header
       width: 45px
       float: left
     h1
+      font-family: Roboto_Thin
       font-size: 30px
       color: #3b7fa4
       padding: 0
@@ -56,27 +57,35 @@ header
     li
       display: inline-block
       a
+        font-family: Roboto_Black        
         padding: 0
         margin: 0
         padding-top: 30px
-        padding-left: 12px
-        padding-right: 12px
+        padding-left: 15px
+        padding-right: 15px
         color: #fff
         text-transform: uppercase
-        font-size: 12px
+        font-size: 13px
 
 .s_middle
   padding-top: 170px
   padding-bottom: 200px
   text-align: center
   h1
+    font-family: Playfair_Display_Black           
     font-size: 32px
   p
+    font-family: Roboto_Light  
     font-size: 14px
-    padding-bottom: 50px
+    padding: 50px 90px
+    &:before
+      content: ""
+      border-top: 1px solid #3b7fa4
+      border-width: 1px
   h1, p
     color: #fff
   button
+    font-family: Hammersmith_One  
     border: 2px solid #3b7fa4
     background-color: transparent
     text-transform: uppercase
